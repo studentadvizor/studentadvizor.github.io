@@ -1,2 +1,1 @@
-# studentadvizor.github.io
-Website files
+Created a resources folder
