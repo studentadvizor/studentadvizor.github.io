@@ -1,4 +1,6 @@
-/* +++ tag line style +++ */
+/*=====================================
+  TAG LINE STYLES 
+=====================================*/
 
 .tag-line {
     color: #000;
@@ -16,9 +18,10 @@
     margin-left: 8px;
     margin-right: 8px;
   }
-
-/* +++ section- header style +++ */
-
+  
+  /*******************************/
+  /******* Section Header ********/
+  /*******************************/
   .section-header {
     position: relative;
     width: 100%;
@@ -68,8 +71,10 @@
     text-align: left;
   }
   
-  /* +++ feature part style +++ */
-
+  /******************************************/
+  /********* FEATURE *********/
+  /******************************************/
+  
   .feature_part {
     padding-top: 65px;
   }
@@ -179,9 +184,13 @@
     color: #ffffff;
     background: #7fc8f8;
   }
-
-  /* +++ problem style +++ */
-
+/*   
+  .feature_part .single_feature:hover{
+    zoom: 105%;
+  } */
+  /*******************************/
+  /*********** problem CSS **********/
+  /*******************************/
   .probs {
     position: relative;
     width: 100%;
@@ -221,9 +230,10 @@
     padding-top: 45px;
     padding-bottom: 45px;
   }
-
-/* +++ team details style +++ */
   
+  /*******************************/
+  /*********** TEAM CSS **********/
+  /*******************************/
   .our-team {
     border-top: 1px solid #fff;
     background: #dbe8f0;
@@ -314,6 +324,9 @@
       margin-top: 80px;
     }
   }
+
+
+  
   
 
 

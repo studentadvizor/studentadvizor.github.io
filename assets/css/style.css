@@ -13,10 +13,8 @@
     scroll-behavior: smooth;
 }
 
-/* +++ navigation menu styles +++ */
-
 *::selection{
-    background:var(--red);
+    background:var(--s_blue);
     color:#fff;
 }
 
@@ -47,11 +45,11 @@ header{
 }
 header .logo{
     font-size: 2.5rem;
-    color:#666;
+    color:var(--gray);
     
 }
 .logo1{
-    width: 50px;
+    width: 45px;
 }
 
 header .logo span{
@@ -62,7 +60,7 @@ header .navbar ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    list-style: none;
+    list-style: none !important;
 }
 
 header .navbar ul li{
@@ -70,8 +68,9 @@ header .navbar ul li{
 }
 
 header .navbar ul li a{
-    color:#999;
+    color:var(--gray);
     font-size: 2rem;
+    text-decoration: none !important;
 }
 
 header .navbar ul li a.active,
@@ -83,12 +82,10 @@ header .navbar ul li a:hover{
 
 #menu{
     font-size: 3rem;
-    color:#999;
+    color:var(--gray);
     cursor: pointer;
     display: none;
 }
-
-/* +++ home page styles +++ */
 
 section{
     min-height: 100vh;
@@ -101,7 +98,7 @@ section{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background: url(../img/header-background.jpg) center center no-repeat;
+    /* background: url(../img/imageedit_1_2083531169.png) center center no-repeat; */
     
 }
 
@@ -137,14 +134,137 @@ section{
 
 
 
+@media (max-width:991px){
 
+    html{
+        font-size: 55% ;
+    }
 
+}
 
+@media (max-width:768px){
 
+    #menu{
+        display: block;
+    }
 
+    header .navbar{
+        position: fixed;
+        top:8rem; left:-120%;
+        height: 100%;
+        width:100%;
+        background:#eee;
+        border-top: .2rem solid rgba(0,0,0,.1);
+    }
 
+    header .navbar ul{
+        flex-flow: column;
+        padding:2rem;
+    }
 
+    header .navbar ul li{
+        text-align: center;
+        width:100%;
+        margin:1rem 0;
+    }
 
+    header .navbar ul li a{
+        display: block;
+        padding:1rem;
+    }
+
+    header .navbar ul li a.active,
+    header .navbar ul li a:hover{
+        padding:1rem;
+        background:var(--p_blue);
+        color:#fff;
+        border:none;
+        border-radius: 5rem;
+    }
+
+    .fa-times{
+        transform: rotate(180deg);
+    }
+
+    header .navbar.nav-toggle{
+        left:0;
+    }
+
+    .home .content{
+        text-align: center;
+    }
+
+    .prevent .row:last-child{
+        flex-flow: column-reverse;
+    }
+    ol, ul {
+        margin-top: 0rem;
+        margin-bottom: 40rem !important;
+        margin-left: 31rem;
+    }
+
+}
+
+@media (max-width:565px){
+
+    html{
+        font-size: 50%;
+    }
+
+    section{
+        padding:0 3%;
+        padding-top: 9rem;
+    }
+    
+    ol, ul {
+        
+        margin-bottom: 40rem ;
+        margin-left: 23rem;
+    }
+
+}
+
+@media (max-width:444px){
+
+   
+    ol, ul {
+        
+        margin-bottom: 40rem !important;
+        margin-left: 16rem !important;
+    }
+
+}
+@media (max-width:320px){
+
+   
+    ol, ul {
+        
+        margin-bottom: 40rem !important;
+        margin-left: 11rem !important;
+    }
+
+}
+@media (max-width:376px){
+
+   
+    ol, ul {
+        
+        margin-bottom: 40rem !important;
+        margin-left: 15rem !important;
+    }
+
+}
+
+@media (max-width:281px){
+
+   
+    ol, ul {
+        
+        margin-bottom: 40rem !important;
+        margin-left: 8rem !important;
+    }
+
+}
 
 
 
@@ -194,114 +314,6 @@ section{
     color: #ffffff;
     background: #00539C;
 }
-
-
-/*******************************/
-/******* Single Page CSS *******/
-/*******************************/
-.single {
-    position: relative;
-    width: 100%;
-    padding: 45px 0 65px 0;
-}
-
-.single h1,
-.single h2,
-.single h3,
-.single h4,
-.single h5,
-.single h6 {
-    font-weight: 400;
-}
-
-.single img {
-    margin: 10px 0 15px 0;
-}
-
-.single .table,
-.single .list-group {
-    margin-bottom: 30px;
-}
-
-.single .section-header h2 {
-    font-weight: 100;
-}
-
-
-/*******************************/
-/******* Page Header CSS *******/
-/*******************************/
-.page-header {
-    position: relative;
-    margin-bottom: 45px;
-    padding: 115px 0;
-    text-align: center;
-    background: #FFD662;
-}
-
-.page-header h2 {
-    color: #000000;
-    font-size: 60px;
-    font-weight: 100;
-    text-transform: uppercase;
-    margin-bottom: -8px;
-}
-
-.page-header a {
-    position: relative;
-    padding: 0 12px;
-    font-size: 22px;
-    font-weight: 300;
-    color: #00539C;
-}
-
-.page-header a:hover {
-    color: #000000;
-}
-
-.page-header a::after {
-    position: absolute;
-    content: "/";
-    width: 8px;
-    height: 8px;
-    top: -2px;
-    right: -7px;
-    text-align: center;
-    color: #666666;
-}
-
-.page-header a:last-child::after {
-    display: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -413,9 +425,7 @@ section{
     color: #ffffff;
     background: #00539C;
 }
-/*******************************/
-/********* Footer CSS **********/
-/*******************************/
+
 
 
 
