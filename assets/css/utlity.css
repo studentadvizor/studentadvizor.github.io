@@ -8,7 +8,7 @@
     --gray: #999;
 }
 
-/* button css */
+/* button styling */
 
 .btn1{
     display: inline-block;
@@ -41,10 +41,8 @@
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
+/* section header styling */
 
-/*******************************/
-/******* Section Header ********/
-/*******************************/
 .section-header {
     position: relative;
     width: 100%;
@@ -106,17 +104,10 @@
     border-radius: 5px;
 }
 
+/* footer styling */
 
-
-
-
-
-/*******************************/
-/********* Footer CSS **********/
-/*******************************/
 .footer {
     position: relative;
-    margin-top: 45px;
     padding-top: 90px;
     background: #00539C;
     color: #ffffff;
@@ -247,7 +238,6 @@
     border-right: none;
 }
 
-
 .footer .copyright {
     padding: 30px 15px;
     border-top: 1px solid rgba(255, 255, 255, .1);
@@ -278,5 +268,3 @@
         text-align: center;
     }
 }
-
-

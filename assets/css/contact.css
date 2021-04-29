@@ -1,0 +1,153 @@
+@import url(utility.css);
+
+/* Contact form Styling */
+
+.contact {
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+}
+
+.contact .faqs {
+    padding: 0;
+}
+
+@media(max-width: 767.98px) {
+    .contact .faqs {
+        margin-bottom: 30px;
+    }
+}
+
+.contact .contact-form input {
+    height: 60px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.contact .contact-form textarea{
+    font-size: 1.5rem;
+}
+
+.contact .contact-form .btn {
+    height: 60px;
+    padding: 0 20px;
+    color: #000000;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: var;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.contact .contact-form .btn:hover {
+    color: #ffffff;
+    background: #00539C;
+}
+
+/* faqs styling */
+
+.faqs {
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+}
+
+.faqs .section-header {
+    margin-bottom: 30px;
+}
+
+.faqs img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+@media(max-width: 767.98px) {
+    .faqs img {
+        margin-bottom: 30px;
+    }
+}
+
+.faqs .card {
+    margin-bottom: 15px;
+    padding-top: 15px;
+    border: none;
+    border-radius: 0;
+    border-top: 1px solid #eeeeee;
+}
+
+.faqs .card:last-child {
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.faqs .card-header {
+    padding: 0;
+    border: none;
+    background: #ffffff;
+}
+
+.faqs .card-header a {
+    display: block;
+    width: 100%;
+    color: var(--p_blue);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+    text-decoration: none   ;
+}
+
+.faqs .card-header a span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    background: var(--yellow);
+    color: #000000;
+    border-radius: 5px;
+}
+
+.faqs .card-header [data-toggle="collapse"]:after {
+    font-family: 'font Awesome 5 Free';
+    content: "\f067";
+    float: right;
+    color: var(--p_blue);
+    font-size: 12px;
+    font-weight: 900;
+    transition: .3s;
+}
+
+.faqs .card-header [data-toggle="collapse"][aria-expanded="true"]:after {
+    font-family: 'font Awesome 5 Free';
+    content: "\f068";
+    float: right;
+    color: var(--p_blue);
+    font-size: 12px;
+    font-weight: 900;
+    transition: .3s;
+}
+
+.faqs .card-body {
+    padding: 15px 0 0 0;
+    font-size: 16px;
+    border: none;
+    background: #ffffff;
+}
+
+.faqs a.btn {
+    margin-top: 30px;
+    padding: 15px 35px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    background: #FFD662;
+    transition: .3s;
+}
+
+.faqs a.btn:hover {
+    color: #ffffff;
+    background: #00539C;
+}

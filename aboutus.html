@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/utlity.css">
     <link rel="stylesheet" href="./assets/css/about.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
 
 
     <!-- styles -->
@@ -19,59 +20,59 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
         crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
-    <title>About us</title>
+    <title>About Us Page</title>
 </head>
 
 <body>
-    <header>
-        <!-- <a href="#" class="logo"><span class="fas fa-university"></span>Student Advizor</a> -->
+    <!-- navbar starts -->
 
+    <header>
         <img class="logo1" src="./assets/img/logo_1.png" alt="">
         <div id="menu" class="fas fa-bars"></div>
-
         <nav class="navbar">
             <ul>
                 <li><a href="index.html">home</a></li>
                 <li><a class="active" href="aboutus.html">About Us</a></li>
-                <li><a href="#">College</a></li>
+                <li><a href="college.html">College</a></li>
                 <li><a href="blogs.html">Blogs</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
-
             </ul>
         </nav>
-
     </header>
 
-    <!-- header section ends -->
+    <!-- navbar ends -->
 
     <!-- tag-line section start -->
+
     <div class="tag-line">
         <div class="container">
             <div class="row  text-center">
                 <div class="col-lg-12  col-md-12 col-sm-12">
                     <h2><i class="fas fa-adjust"></i>
-                        WELCOME TO STUDENT ADVIZOR <i class="fas fa-adjust"></i> </h2>
+                    <i class="fas fa-adjust"></i> </h2>
                 </div>
                 <div class="section-header">
                     <h2>About Us</h2>
-                    <p>Idea is to create a platform vvhich
-                        is for students, by students vvhich is easily accessible for all the students.
+                    <p>Idea is to create a platform Which
+                        is for students, by students Which is easily accessible for all the students.
                     </p>
                 </div>
             </div>
         </div>
     </div>
+    
     <!-- tag-line section ends -->
 
     <!-- feature_part start-->
+    
     <section class="feature_part">
-
         <div class="container">
             <div class="section-header">
                 <h2>Our Feature</h2>
@@ -95,7 +96,7 @@
                 <div class="col-sm-6 col-xl-3 col-md-4">
                     <div class="single_feature">
                         <div class="single_feature_part">
-                            <img data-tilt src="./assets/img/vision.png" alt="vision">
+                            <img data-tilt src="./assets/img/About_img/vision.png" alt="vision">
                             <h4>Our Vision</h4>
                             <p feature-text>The vision of our organization revolves around, the idea of creating a
                                 platform which is
@@ -108,7 +109,7 @@
                 <div class="col-sm-6 col-xl-3 col-md-4 ">
                     <div class="single_feature">
                         <div class="single_feature_part">
-                            <img data-tilt src="./assets/Img/mission.jpg" alt="mission">
+                            <img data-tilt src="./assets/img/About_img/mission.jpg" alt="mission">
                             <h4>Our Mission</h4>
                             <p>To create awareness among the students at various levels like schools & hugher
                                 educational institutions for their various academic and non-academic activities. This
@@ -121,7 +122,10 @@
         </div>
     </section>
 
+    <!-- feature part ends -->
+
     <!-- problems start -->
+
     <div class="problem">
         <div class="container">
             <div class="section-header">
@@ -129,145 +133,122 @@
                 <p>Most comman Problems faced by People</p>
             </div>
             <div class="row">
-                <div class="col-md-7 col-sm-12 ">
-                    <div class="probs">
-                        <div class="accordion" id="accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        <span>1</span> Lack of Awareness
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show"
-                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>The majority of students does not have right/proper
-                                            information regarding colleges, internships, jobs and all
-                                            student related concerns.</strong>
+                <div class="col-md-6">
+                    <div class="faqs">
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne"
+                                        aria-expanded="true">
+                                        <span>1</span> Lack of awareness
+                                    </a>
+                                </div>
+                                <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                    <div class="card-body">
+                                        The Majority Of Students Does Not Have Right/Proper Information Regarding Colleges, Internships, Jobs And All Student Related Concerns.
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link" data-toggle="collapse" href="#collapseTwo">
                                         <span>2</span> Lower Class Downside
-                                    </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>Due to lack of knowledge and awareness, the lower class
-                                            people does have access to lots of opportunities which
-                                            ultimately hinders the process of personal growth and
-                                            development in both professional and personal life.</strong>
+                                    </a>
+                                </div>
+                                <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+                                        Due To Lack Of Knowledge And Awareness, The Lower Class People Does Have Access To Lots Of Opportunities Which Ultimately Hinders The Process Of Personal Growth And Development In Both Professional And Personal Life.
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link" data-toggle="collapse" href="#collapseThree">
                                         <span>3</span> Fraudulent
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>This malarkey has affected thousands of people and specially
-                                            lower class people.</strong>
+                                    </a>
+                                </div>
+                                <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+                                        This Malarkey Has Affected Thousands Of People And Specially Lower Class People.
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingFour">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseFour" aria-expanded="false"
-                                        aria-controls="collapseFour">
-                                        <span>4</span>Students faces problem in regards of
-                                        higher education
-                                    </button>
-                                </h2>
-                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>Student faces problem in finding the best college for the
-                                            specific degree type. Even though, the information being
-                                            available on various websites, a lot of students questions the
-                                            credibility of information.</strong>
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link" data-toggle="collapse" href="#collapseFour">
+                                        <span>4</span> Students faces problem in regards of higher education
+                                    </a>
+                                </div>
+                                <div id="collapseFour" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+                                        Student Faces Problem In Finding The Best College For The Specific Degree Type. Even Though, The Information Being Available On Various Websites, A Lot Of Students Questions The Credibility Of Information.
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
                 <div class="col-md-5 col-sm-12">
-                    <img class="prob_image" src="./assets/Img/problem2.png" alt="">
+                    <img class="prob_image" src="./assets/img/About_img/problems.png" alt="">
                 </div>
             </div>
         </div>
     </div>
+
     <!-- problem End -->
 
-    <!-- Team Start -->
-    <div class="team">
-        <div class="container">
+    <!-- team section starts -->
+
+    <section id="team" class="team section-bg">
+        <div class="container" data-aos="fade-up">
             <div class="section-header">
-                <h2>Our Company People</h2>
+                <h2>Team Details</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, pariatur?</p>
             </div>
-        </div>
-        <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-6">
-                    <div class="our-team">
-                        <div class="pic">
-                            <img src="./assets/Img/team-1.jpg" alt="">
-                        </div>
-                        <div class="team-content">
-                            <h3 class="team-title">Manas Manhas</h3>
-                            <span class="post">Co-Founder</span>
-                            <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dolore ducimus enim
-                                eum nam reiciendis repellendus sapiente tempore. Distinctio omnis ratione reiciendis
-                                tempora tenetur.?
-                            </p>
-                            <ul class="social-links">
-                                <li><a href="#" class="fab fa-linkedin"></a></li>
-                                <li><a href="#" class="fab fa-skype"></a></li>
-                                <li><a href="#" class="fab fa-instagram"></a></li>
-                            </ul>
+                <div class="col-lg-6">
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="pic"><img src="./assets/img/About_img/team-1.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Manas Manhas</h4>
+                            <span>Co-Founder</span>
+                            <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                            <div class="social">
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6">
-                    <div class="our-team">
-                        <div class="pic">
-                            <img src="./assets/Img/team-2.jpg" alt="">
-                        </div>
-                        <div class="team-content">
-                            <h3 class="team-title">Aditya Sachdeva</h3>
-                            <span class="post">Co-Founder</span>
-                            <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dolore ducimus enim
-                                eum nam reiciendis repellendus sapiente tempore. Distinctio omnis ratione reiciendis
-                                tempora tenetur.?
-                            </p>
-                            <ul class="social-links">
-                                <li><a href="#" class="fab fa-linkedin"></a></li>
-                                <li><a href="#" class="fab fa-skype"></a></li>
-                                <li><a href="#" class="fab fa-instagram"></a></li>
-                            </ul>
+
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="pic"><img src="./assets/img/About_img/team-2.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Aditya Sachdeva</h4>
+                            <span>Co-Founder</span>
+                            <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                            <div class="social">
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
-    </div>
-    <!-- Team End -->
+    </section>
+    
+    <!-- Team Section ends -->
 
     <!-- Footer Start -->
+
     <div class="footer">
         <div class="container">
             <div class="row">
@@ -316,20 +297,9 @@
                 </div>
             </div>
         </div>
-
-
     </div>
+
     <!-- Footer End -->
-
-
-
-
-
-
-
-
-
-
 
     <!-- jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
@@ -339,21 +309,13 @@
 
     <!-- javascript -->
     <script src="./assets/js/index.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
 
 </body>
-
 </html>
