@@ -22,6 +22,7 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 html::-webkit-scrollbar {
@@ -42,7 +43,7 @@ header {
   top: 0;
   left: 0;
   z-index: 1000;
-  padding: 2rem 7%;
+  padding: 1.5rem 7%;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 header .logo {
@@ -50,7 +51,7 @@ header .logo {
   color: var(--gray);
 }
 .logo1 {
-  width: 45px;
+  width: 30%;
 }
 
 header .logo span {
@@ -236,4 +237,177 @@ section {
     margin-bottom: 40rem !important;
     margin-left: 8rem !important;
   }
+}
+
+/* preloader */
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: var(--s_blue);
+}
+
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid var(--p_blue);
+  border-top-color: var(--yellow);
+  border-bottom-color: var(--yellow);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: animate-preloader 1s linear infinite;
+  animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* about section in home */
+
+/* quote styling */
+.quotes-section {
+	background-color: #f7f7f7;
+	padding: 40px 0px;
+}
+.quote-item {
+	text-align: center;
+}
+.quote-item i {
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	text-align: center;
+	line-height: 60px;
+	color: #fff;
+	background: var(--p_blue);
+    background: linear-gradient(145deg, var(--p_blue) 0%, var(--s_blue) 100%);
+    border-radius: 50%;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.quote-item p {
+	font-size: 19px;
+	font-weight: 300;
+	font-style: italic;
+	line-height: 35px;
+	margin-bottom: 40px;
+}
+
+/* why us styling */
+.whead{
+  margin-bottom: 0px !important;
+}
+.why-us-content{
+ padding: 5px;
+}
+.why-us .why-us-content h2{
+  margin-top: 5rem !important;
+  color: #666;
+  font-size: 4rem;
+}
+.why-us .why-us-content p{
+  color: var(--s_blue);
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+.wbtn{
+  margin-top: 2rem !important;
+}
+.why-us-image{
+  max-width: 100% !important;
+  height: auto;
+  margin-top: 8rem !important;
+  margin-left: -2.5rem;
+}
+
+/* problem styling */
+
+.prob_image {
+  height: 100%;
+  width: 100%;
+}
+
+.faqs .card {
+  margin-bottom: 15px;
+  padding-top: 15px;
+  border: none;
+  border-radius: 0;
+  border-top: 1px solid #eeeeee;
+}
+
+.faqs .card-header {
+  padding: 0;
+  border: none;
+  background: #ffffff;
+}
+
+.faqs .card-header a {
+  display: block;
+  width: 100%;
+  color: var(--p_blue);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 40px;
+  text-decoration: none   ;
+}
+
+.faqs .card-header a span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  text-align: center;
+  background: var(--yellow);
+  color: #000000;
+  border-radius: 5px;
+}
+
+.faqs .card-header [data-toggle="collapse"]:after {
+  font-family: 'font Awesome 5 Free';
+  content: "\f067";
+  float: right;
+  color: var(--p_blue);
+  font-size: 12px;
+  font-weight: 900;
+  transition: .3s;
+}
+
+.faqs .card-header [data-toggle="collapse"][aria-expanded="true"]:after {
+  font-family: 'font Awesome 5 Free';
+  content: "\f068";
+  float: right;
+  color: var(--p_blue);
+  font-size: 12px;
+  font-weight: 900;
+  transition: .3s;
+}
+
+.faqs .card-body {
+  padding: 15px 0 0 0;
+  font-size: 16px;
+  border: none;
+  background: #ffffff;
 }

@@ -27,6 +27,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+
+    <!-- aos effect -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>About Us Page</title>
 </head>
 
@@ -34,12 +38,12 @@
     <!-- navbar starts -->
 
     <header>
-        <a href="index.html"><img class="logo1" src="./assets/img/logo_1.png" alt="Logo"></a>
+        <a href="index.html"><img class="logo1" src="./assets/img/STUDENT2.png" alt="Logo" ></a>
         <div id="menu" class="fas fa-bars"></div>
         <nav class="navbar">
             <ul>
                 <li><a href="index.html">home</a></li>
-                <li><a class="active" href="aboutus.html">About Us</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
                 <li><a href="college.html">College</a></li>
                 <li><a href="blogs.html">Blogs</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
@@ -51,12 +55,12 @@
 
     <!-- tag-line section start -->
 
-    <div class="tag-line">
-        <div class="container">
+    <div class="tag-line" >
+        <div class="container" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
             <div class="row  text-center">
                 <div class="col-lg-12  col-md-12 col-sm-12">
-                    <h2><i class="fas fa-adjust"></i>
-                    <i class="fas fa-adjust"></i> </h2>
+                    <h2> </h2>
                 </div>
                 <div class="section-header">
                     <h2>About Us</h2>
@@ -72,28 +76,14 @@
 
     <!-- feature_part start-->
     
-    <section class="feature_part">
+    <section class="feature_part" id="feaure">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header" data-aos="fade-right" data-aos-offset="300">
                 <h2>Our Feature</h2>
             </div>
             <div class="row">
-                <div class="col-sm-12 col-xl-6 col-md-4  align-self-center single_feature  ">
-                    <div class="single_feature_text">
-                        <div class="section-header">
-                            <h2>Expert with good expeience and knowledge</h2>
-                        </div>
-                        <p>A platform where credibility matters. act as a guiding tool for students concerns like
-                            schools,
-                            college, jobs, internships, academic details, non-academic details, career counselling,
-                            consulting, persona lity test and much more regardless of student's societal status, f
-                            inancial
-                            level. A complete student's guide that will help them to lead a good life in every aspect.
-                        </p>
-                        <a class="btn1" href="">Learn More</a>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-xl-3 col-md-4">
+
+                <div class="col-sm-6 col-xl-6 col-md-6" data-aos="zoom-in" easing="ease-in" data-aos-offset="300">
                     <div class="single_feature">
                         <div class="single_feature_part">
                             <img data-tilt src="./assets/img/About_img/vision.png" alt="vision">
@@ -106,7 +96,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-xl-3 col-md-4 ">
+                <div class="col-sm-6 col-xl-6 col-md-6" data-aos="zoom-in" easing="ease-in" data-aos-offset="300">
                     <div class="single_feature">
                         <div class="single_feature_part">
                             <img data-tilt src="./assets/img/About_img/mission.jpg" alt="mission">
@@ -124,80 +114,7 @@
 
     <!-- feature part ends -->
 
-    <!-- problems start -->
-
-    <div class="problem">
-        <div class="container">
-            <div class="section-header">
-                <h2>Problems</h2>
-                <p>Most comman Problems faced by People</p>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="faqs">
-                        <div id="accordion">
-                            <div class="card">
-                                <div class="card-header">
-                                    <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne"
-                                        aria-expanded="true">
-                                        <span>1</span> Lack of awareness
-                                    </a>
-                                </div>
-                                <div id="collapseOne" class="collapse show" data-parent="#accordion">
-                                    <div class="card-body">
-                                        The Majority Of Students Does Not Have Right/Proper Information Regarding Colleges, Internships, Jobs And All Student Related Concerns.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header">
-                                    <a class="card-link" data-toggle="collapse" href="#collapseTwo">
-                                        <span>2</span> Lower Class Downside
-                                    </a>
-                                </div>
-                                <div id="collapseTwo" class="collapse" data-parent="#accordion">
-                                    <div class="card-body">
-                                        Due To Lack Of Knowledge And Awareness, The Lower Class People Does Have Access To Lots Of Opportunities Which Ultimately Hinders The Process Of Personal Growth And Development In Both Professional And Personal Life.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header">
-                                    <a class="card-link" data-toggle="collapse" href="#collapseThree">
-                                        <span>3</span> Fraudulent
-                                    </a>
-                                </div>
-                                <div id="collapseThree" class="collapse" data-parent="#accordion">
-                                    <div class="card-body">
-                                        This Malarkey Has Affected Thousands Of People And Specially Lower Class People.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header">
-                                    <a class="card-link" data-toggle="collapse" href="#collapseFour">
-                                        <span>4</span> Students faces problem in regards of higher education
-                                    </a>
-                                </div>
-                                <div id="collapseFour" class="collapse" data-parent="#accordion">
-                                    <div class="card-body">
-                                        Student Faces Problem In Finding The Best College For The Specific Degree Type. Even Though, The Information Being Available On Various Websites, A Lot Of Students Questions The Credibility Of Information.
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-5 col-sm-12">
-                    <img class="prob_image" src="./assets/img/About_img/problems.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- problem End -->
-
+    
     <!-- team section starts -->
 
     <section id="team" class="team section-bg">
@@ -270,10 +187,10 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="footer-link">
                         <h2>Useful Link</h2>
-                        <a href="">Home</a>
-                        <a href="">About Us</a>
-                        <a href="">Blogs</a>
-                        <a href="">Contact Us</a>
+                        <a href="index.html">Home</a>
+                        <a href="aboutus.html">About Us</a>
+                        <a href="blogs.html">Blogs</a>
+                        <a href="contact.html">Contact Us</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
@@ -316,6 +233,14 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- javascriptfor animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1100,
+        });
+    </script>
 
 </body>
 </html>

@@ -1,36 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <!-- css -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/utlity.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/utlity.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/about.css">
+    <link rel="stylesheet" href="./assets/css/contact.css"> -->
     <!-- bootstrap css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <title>Student Advizor</title>
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+       
 
-<body>
+       <!-- aos effect -->
+       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+       
+    <title>Student Advizor</title>
+  </head>
+
+  <body>
     <!-- navbar start -->
 
     <header>
-        <a href="index.html"><img class="logo1" src="./assets/img/logo_1.png" alt="Logo"></a>
-        <div id="menu" class="fas fa-bars"></div>
-        <nav class="navbar">
-            <ul>
-                <li><a class="active" href="index.html">home</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="college.html">College</a></li>
-                <li><a href="blogs.html">Blogs</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
+      <a href="index.html"
+        ><img class="logo1" src="./assets/img/STUDENT2.png" alt="Logo"
+      /></a>
+      <div id="menu" class="fas fa-bars"></div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="college.html">College</a></li>
+          <li><a href="blogs.html">Blogs</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- navbar ends -->
@@ -38,29 +53,240 @@
     <!-- home section starts  -->
 
     <section class="home" id="home">
-        <div class="content">
-            <span>Student - Advizor</span>
-            <h3>for the students,</h3> <h3>by the students.</h3>
-            <p>Student Advizor is a platform for students to provide them the right information on colleges, internship,
-                jobs, career consulting, skill
-                development. guiding them about the right options in a transparent way.</p>
-            <a href="#" class="btn1">Watch Our Video</a>
-        </div>
-        <div class="image">
-            <img data-tilt src="./assets/img/banner.png" alt="">
-        </div>
+      <div class="content">
+        <span>Student - Advizor</span>
+        <h3>for the students,</h3>
+        <h3>by the students.</h3>
+        <p>
+          Student Advizor is a platform for students to provide them the right
+          information on colleges, internship, jobs, career consulting, skill
+          development. guiding them about the right options in a transparent
+          way.
+        </p>
+        <a href="#" class="btn1">Watch Our Video</a>
+      </div>
+      <div class="image">
+        <img data-tilt src="./assets/img/banner.png" alt="" />
+      </div>
     </section>
 
     <!-- home section ends -->
 
+    <!-- quote Starts Here -->
+    <div class="quotes-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <div class="quote-item">
+              <div class="icon">
+                <i class="fa fa-quote-right"></i>
+              </div>
+              <p>
+                "Ut elementum a elit sed tristique. Pellentesque sed semper
+                erat. Orci varius natoque penatibus et magnis dis parturient
+                montes, nascetur ridiculus mus. Aenean quam erat, rutrum ut
+                malesuada."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- quotes Ends Here -->
+
+    
+    <!-- problem start here -->
+
+    <div class="problem">
+      <div class="container">
+          <div class="section-header" data-aos="fade-left" data-aos-offset="300"  data-aos-easing="ease-in-sine">
+              <h2>Problems</h2>
+              <p>Most comman Problems faced by People</p>
+          </div>
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="faqs" data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine">
+                      <div id="accordion">
+                          <div class="card">
+                              <div class="card-header">
+                                  <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne"
+                                      aria-expanded="true">
+                                      <span>1</span> Lack of awareness
+                                  </a>
+                              </div>
+                              <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                  <div class="card-body">
+                                      The Majority Of Students Does Not Have Right/Proper Information Regarding Colleges, Internships, Jobs And All Student Related Concerns.
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="card">
+                              <div class="card-header">
+                                  <a class="card-link" data-toggle="collapse" href="#collapseTwo">
+                                      <span>2</span> Lower Class Downside
+                                  </a>
+                              </div>
+                              <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                  <div class="card-body">
+                                      Due To Lack Of Knowledge And Awareness, The Lower Class People Does Have Access To Lots Of Opportunities Which Ultimately Hinders The Process Of Personal Growth And Development In Both Professional And Personal Life.
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="card">
+                              <div class="card-header">
+                                  <a class="card-link" data-toggle="collapse" href="#collapseThree">
+                                      <span>3</span> Fraudulent
+                                  </a>
+                              </div>
+                              <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                  <div class="card-body">
+                                      This Malarkey Has Affected Thousands Of People And Specially Lower Class People.
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="card">
+                              <div class="card-header">
+                                  <a class="card-link" data-toggle="collapse" href="#collapseFour">
+                                      <span>4</span> Students faces problem in regards of higher education
+                                  </a>
+                              </div>
+                              <div id="collapseFour" class="collapse" data-parent="#accordion">
+                                  <div class="card-body">
+                                      Student Faces Problem In Finding The Best College For The Specific Degree Type. Even Though, The Information Being Available On Various Websites, A Lot Of Students Questions The Credibility Of Information.
+                                  </div>
+                              </div>
+                          </div>
+
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-5 col-sm-12" data-aos="zoom-in" data-aos-delay="100" data-aos-offset="300" data-aos-delay="500"  data-aos-easing="ease-in-sine">
+                  <img class="prob_image" src="./assets/img/About_img/problems.png" alt="">
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <!-- problem end here -->
+
+    <!-- why us page start here -->
+
+    <div class="section-header whead">
+        <h2>What we Provide </h2>
+    </div>
+
+    <section class="why-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-5 col-12">
+              <img
+              data-tilt
+                src="./assets/img/creative5.svg"
+                class="why-us-image"
+                alt="website"
+              />
+          </div>
+          <div class="col-lg-6 col-md-7 col-12 why-us-content">
+            <h2 class="my-5 pt-3 heading" data-aos="fade-up" data-aos-delay="100" >
+                Expert with good expeience and knowledge
+            </h2>
+            <p>A platform where credibility matters. act as a guiding tool for students concerns like
+                schools,
+                college, jobs, internships, academic details, non-academic details, career counselling,
+                consulting, persona lity test and much more regardless of student's societal status, f
+                inancial
+                level. A complete student's guide that will help them to lead a good life in every aspect.
+            </p>
+            <a class="btn1 wbtn" href="#feature">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- Footer Start -->
+
+     <div class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6 col-lg-3">
+                  <div class="footer-contact">
+                      <h2>Get In Touch</h2>
+                      <p><i class="fa fa-map-marker-alt"></i>123 , ahmedabad, Guj</p>
+                      <p><i class="fa fa-phone-alt"></i>+912222222</p>
+                      <p><i class="fa fa-envelope"></i>student@gmail.com</p>
+                      <div class="footer-social">
+                          <a href=""><i class="fab fa-twitter"></i></a>
+                          <a href=""><i class="fab fa-facebook-f"></i></a>
+                          <a href=""><i class="fab fa-youtube"></i></a>
+                          <a href=""><i class="fab fa-instagram"></i></a>
+                          <a href=""><i class="fab fa-linkedin-in"></i></a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                  <div class="footer-link">
+                      <h2>Useful Link</h2>
+                      <a href="index.html">Home</a>
+                      <a href="aboutus.html">About Us</a>
+                      <a href="blogs.html">Blogs</a>
+                      <a href="contact.html">Contact Us</a>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                  <div class="footer-link">
+                      <h2>Useful Link</h2>
+                      <a href="">Trending Technology</a>
+                      <a href="">Collage Review</a>
+                      <a href="">Education Guidance</a>
+                      <a href="">FAQs</a>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                  <div class="footer-form">
+                      <h2>Stay Updated</h2>
+                      <p>
+                          Lorem ipsum dolor sit amet, adipiscing elit. Etiam accumsan lacus eget velit
+                      </p>
+                      <input class="form-control" placeholder="Email here">
+                      <button class="btn">Submit</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Footer End -->
+    <!-- preloader -->
+    <div id="preloader" class="loader"></div>
+
     <!-- jquery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+    ></script>
     <script type="text/javascript" src="./assets/js/tilt.jquery.js"></script>
 
     <!-- javascript  -->
     <script src="./assets/js/index.js"></script>
 
-</body>
+    <!-- javascript for preloader -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    
+    <!-- javascriptfor animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1100,
+        });
+    </script>
+  </body>
 </html>

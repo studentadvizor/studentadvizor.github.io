@@ -321,6 +321,7 @@ body {
 
 .content .sidebar .section.search {
   margin-top: 80px;
+  padding-bottom: 20px;
 }
 
 .content .sidebar .section.topics ul {

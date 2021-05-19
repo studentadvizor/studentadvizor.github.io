@@ -1,3 +1,5 @@
+// navbar function
+
 $(document).ready(function(){
 
     $('#menu').click(function(){
@@ -5,3 +7,13 @@ $(document).ready(function(){
         $('.navbar').toggleClass('nav-toggle');
     });
 });
+
+// preloader timeout function
+
+setTimeout(function(){
+    $('.loader').fadeToggle();
+},1000);
+
+// aos initialize for tansitions
+
+AOS.init();
