@@ -20,7 +20,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 63.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -30,7 +30,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-  background: #000;
+  background: rgb(255, 255, 255);
 }
 
 header {
@@ -47,7 +47,7 @@ header {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 header .logo {
-  font-size: 2.5rem;
+  font-size: 2.9rem;
   color: var(--gray);
 }
 .logo1 {
@@ -71,7 +71,8 @@ header .navbar ul li {
 
 header .navbar ul li a {
   color: var(--gray);
-  font-size: 2rem;
+  font-size: 2.05rem;
+  font-weight: 500;
   text-decoration: none !important;
 }
 
@@ -111,17 +112,22 @@ section {
 }
 
 .home .content {
-  flex: 1 1 40rem;
+  flex: 1 1 30rem;
 }
 
 .home .content span {
   color: var(--p_blue);
-  font-size: 2.5rem;
+  font-size: 6.2rem;
 }
 
 .home .content h3 {
   color: #666;
-  font-size: 5rem;
+  font-size: 3.95rem;
+}
+
+.home .content h2 {
+  color: #666;
+  font-size: 3.1rem;
 }
 
 .home .content p {
@@ -290,7 +296,7 @@ section {
 /* quote styling */
 .quotes-section {
 	background-color: #f7f7f7;
-	padding: 40px 0px;
+	padding: 40px 1px;
 }
 .quote-item {
 	text-align: center;
@@ -309,10 +315,10 @@ section {
     margin-bottom: 45px;
 }
 .quote-item p {
-	font-size: 19px;
-	font-weight: 300;
+	font-size: 25px;
+	font-weight: 700;
 	font-style: italic;
-	line-height: 35px;
+	line-height: 33px;
 	margin-bottom: 40px;
 }
 
@@ -326,7 +332,7 @@ section {
 .why-us .why-us-content h2{
   margin-top: 5rem !important;
   color: #666;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 .why-us .why-us-content p{
   color: var(--s_blue);
@@ -347,15 +353,15 @@ section {
 
 .prob_image {
   height: 100%;
-  width: 100%;
+  width: 110%;
 }
 
 .faqs .card {
   margin-bottom: 15px;
-  padding-top: 15px;
+  padding-top: 20px;
   border: none;
   border-radius: 0;
-  border-top: 1px solid #eeeeee;
+  border-top: 3.9px solid #eeeeee;
 }
 
 .faqs .card-header {
@@ -368,8 +374,8 @@ section {
   display: block;
   width: 100%;
   color: var(--p_blue);
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 19px;
+  font-weight: 550;
   line-height: 40px;
   text-decoration: none   ;
 }
@@ -391,7 +397,7 @@ section {
   float: right;
   color: var(--p_blue);
   font-size: 12px;
-  font-weight: 900;
+  font-weight: 1000;
   transition: .3s;
 }
 
@@ -401,7 +407,7 @@ section {
   float: right;
   color: var(--p_blue);
   font-size: 12px;
-  font-weight: 900;
+  font-weight: 1000;
   transition: .3s;
 }
 

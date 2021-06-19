@@ -52,14 +52,14 @@
 }
 
 .section-header p {
-  margin-bottom: 37px;
-  font-size: 20px;
+  margin-bottom: 40px;
+  font-size: 23px;
 }
 
 .section-header h2 {
   color: #00539c;
   font-size: 50px;
-  font-weight: 100;
+  font-weight: 550;
   margin-bottom: 25px;
 }
 
@@ -135,15 +135,15 @@
 
 .feature_part .single_feature_part h4 {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 13px;
 }
 
 .feature_part .single_feature_part p {
   color: black;
-  line-height: 1.8;
-  font-size: 15px;
+  line-height: 1.7;
+  font-size: 17px;
 }
 
 .feature_part .single_feature:hover .single_feature_part {
@@ -256,7 +256,7 @@ section {
 .team .member h4 {
   font-weight: 700;
   margin-bottom: 5px;
-  font-size: 20px;
+  font-size: 22px;
   color: #37517e;
 }
 
