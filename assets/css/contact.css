@@ -33,7 +33,7 @@
 .faqs {
     position: relative;
     width: 100%;
-    padding: 45px 0;
+    padding: 60px 4rem;
 }
 
 .faqs .section-header {
@@ -75,9 +75,9 @@
     display: block;
     width: 100%;
     color: var(--p_blue);
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 40px;
+    font-size: 3.8rem;
+    font-weight: 550;
+    line-height: 55px;
     text-decoration: none   ;
 }
 
@@ -113,8 +113,9 @@
 }
 
 .faqs .card-body {
-    padding: 15px 0 0 0;
-    font-size: 16px;
+    padding: 15px 6px 22px 2px;
+    font-size: 2rem;
+    font-weight: 400;
     border: none;
     background: #ffffff;
 }
