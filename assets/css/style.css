@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Noto Serif:wght@100;200;500&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Noto Serif&display=swap');
 @import url(utility.css);
 
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "Nota Serif", serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,7 +11,7 @@
   border: none;
   text-decoration: none;
   transition: all 0.3s cubic-bezier(0.16, 0.8, 0.62, 1.52);
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   scroll-behavior: smooth;
 }
 
@@ -135,6 +136,8 @@ section {
   font-size: 2rem;
   padding: 1rem 0;
 }
+
+
 
 /* Media queries */
 
